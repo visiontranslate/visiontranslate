@@ -1,3 +1,7 @@
+
+
+
+
 body, html {
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -650,10 +654,28 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 10px;
 }
 
+
+.isotope .isotope-item { /*  nick: i added this to prevent display issues with smaller screen sizes*/
+		width: 300px;
+		height: 300px;
+	}
+
+
 @media (max-width: 768px) {
 .content {
 	padding: 40% 0 0;
 }
+
+	.intro-text h1 {    /*  nick: i added this to prevent display issues with iphone screen sizes*/
+		font-size: 30px;
+	}
+
+	.categories {  /*  nick: i added this to prevent display issues with iphone screen sizes*/
+		display: none;
+	}
+
+
+
 }
 
 @media (max-width: 603px) {
@@ -666,6 +688,9 @@ label {
 .hover-bg .hover-text {
 	padding: 12% 10%;
 }
+
+
+
 }
 
 @media (max-width: 360px) {
