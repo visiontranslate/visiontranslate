@@ -233,6 +233,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 #services-section .service:hover>i.fa {
 	background: #0b3540;
 }
+
+
+
+
+
+
+/*nick added ***********************************************************************************/
+#services-section img{
+	box-sizing: content-box;
+	background-color: #0c3642;
+	border: 2px solid #f3ca27;
+	border-radius: 10px;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	padding: 20px;
+	transition: 1s;
+}
+
+
+
+/*nick added ***********************************************************************************/
+#services-section img:hover {
+	background: #1f4c59;
+}
+
+
+
 /* Gallery Section 
 ==============================*/
 #works-section {
